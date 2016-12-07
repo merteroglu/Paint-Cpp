@@ -8,7 +8,7 @@ Graphics.h kullanılarak yapılan paintte bulunan çizim araçlarına sahip olan
 1. Include klasörü içersine Graphics.h ın atılması
 1. MinGW\Libs klasörüne libbgi.a atılması
 
-image::Desktop\AsciiDocsfx\Resim-1.png[]
+image::https://github.com/merteroglu/Paint-Cpp/blob/master/images/Resim-1.png[]
 
 ### Compiler Linker Ayarları
 
@@ -20,10 +20,10 @@ image::Desktop\AsciiDocsfx\Resim-1.png[]
 1. Other linker options a alttakini yazıyoruz
 1. -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
 
-image::Desktop\AsciiDocsfx\Resim-2.png[]
+image::https://github.com/merteroglu/Paint-Cpp/blob/master/images/Resim-2.png[]
 
 ## Proje detayları
-image::Desktop\AsciiDocsfx\Resim-6.png[]
+image::https://github.com/merteroglu/Paint-Cpp/blob/master/images/Resim-6.png[]
 
 === Kullanım klavuzu
 
@@ -55,7 +55,7 @@ if(lBtnDwnY>mY){
 
 *Çember*:Mouse sağ tık basıldığı anda ki koordinat ile bırakıldığı anda ki koordinatlar arasında ki mesafenin yarısını çemberin yarıçapı olarak alır.İki noktanın ortası noktasını çember merkezi kabul eder.Uzaklığı hesaplamak için kullanılan formül:
 
-[math,file="tex-formula.png"]
+[math,file="https://github.com/merteroglu/Paint-Cpp/blob/master/images/mathml-formula.png"]
 --
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
  <mi>uzaklik</mi>
