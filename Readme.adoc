@@ -40,7 +40,7 @@ image::https://github.com/merteroglu/Paint-Cpp/blob/master/images/Resim-6.png[]
 ----
 int tmp;
 
-if(lBtnDwnX>mX){
+if(lBtnDwnX>mX){ <1>
    tmp = mX;
    mX = lBtnDwnX;
    lBtnDwnX = tmp;
@@ -52,7 +52,7 @@ if(lBtnDwnY>mY){
     lBtnDwnY = tmp;
 }
 ----
-
+<1> Kontrol
 *Çember*:Mouse sağ tık basıldığı anda ki koordinat ile bırakıldığı anda ki koordinatlar arasında ki mesafenin yarısını çemberin yarıçapı olarak alır.İki noktanın ortası noktasını çember merkezi kabul eder.Uzaklığı hesaplamak için kullanılan formül:
 
 [math,file="https://github.com/merteroglu/Paint-Cpp/blob/master/images/mathml-formula.png"]
